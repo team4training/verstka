@@ -1,0 +1,92 @@
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 0;
+  background: -webkit-linear-gradient(white 50%, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 4.5em;
+  color: white;
+}
+
+h3 {
+  font-size: 3em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0 11vw;
+  height: 100%;
+}
+
+#home {
+  background-color: #07292A;
+  height: 80vh;
+}
+
+header {
+  padding: 5vh 0;
+  border-bottom: 2px solid black;
+}
+
+header * {
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  padding: 1vh 0;
+}
+
+li {
+  padding: 1.5vh 1vw;
+}
+
+li a {
+  color: #067473;
+  text-decoration: none;
+}
+
+li.active a {
+  color: white
+}
+
+li.active {
+  background: linear-gradient(to bottom, #00ADB4 , #067473 60%);
+  border-radius: 2px;
+}
+.white{
+  color: white;
+}
+section.after-header {
+  margin: 3vh 0;
+}
+section.after-header div{
+  display: inline-block;
+}
+.greetings{
+  width: 28%;
+  vertical-align: top;
+  padding-right: 2%;
+}
+.greetings p{
+  text-align: justify;
+  color: #067473;
+}
+.gallery{
+  width: 69%;
+}
+.gallery img{
+  float: right;
+}
